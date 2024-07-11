@@ -36,22 +36,17 @@ public class operators {
        // Using a for loop print sum of all numbers 1-->25
        // 1,2,3,4,5,....,25
        // 1,3,6,10,15,....
-       int sum=0;
+      /* int sum=0;
        for(int i=1;i<=25;i++){
         sum+=i;
         System.out.print(sum+" , ");
-       }
+       }*/
        
+
+       //the first multiple of 2 & 7 
        int i=5;
        while(i<15){
-        //code
-
-       }
-        
-       //the first multiple of 2 & 7 
-       int i=0;
-       while(i<15){
-        if (i%2==0 && i%7==0);
+        if (i%2==0 && i%7==0)
         System.out.println(i);
         i++;
        }
