@@ -3,21 +3,21 @@ package Day1;
 public class operators {
     public static void main(String[] args) {
         //1. Arithmetic operators
-        int a=2, b=3;
+        /*int a=2, b=3;
         // +,-,*,/,%,++,--
-        /*a=a+b;
+        a=a+b;
         b=b+a;
         a=a-b;
         b=b-a;
         ++a; a++;    //++a means increment before execution & a++ means increment after execution
-        --b; b--;*/    //--a means decrement before execution & a-- means decrement after execution
+        --b; b--; */   //--a means decrement before execution & a-- means decrement after execution
 
        //2. Comparison operators
        // >,<,!=,==,<=,>=
        
        //3. Logical operators
        // &&=and, ||=or, !
-       if (!(a>b || a<10));
+       // if (!(a>b || a<10));
 
        //4. Assignment operators
        /*int x=2;
