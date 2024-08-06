@@ -14,7 +14,7 @@ public class RecursionCode6 {
 
     // Tail Recursion
     public static int fibTail(int n, int a, int b) {
-        if(n==0) return a;
+        if(n==0 || n==1) return a;
         return fibTail(n-1, b, a+b);
     }
     
