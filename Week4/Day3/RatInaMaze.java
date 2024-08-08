@@ -2,6 +2,8 @@ package Week4.Day3;
 
 public class RatInaMaze {
     static int[][] sol= new int[100][100];
+    static int[][] shortestPath= new int[100][100];
+     
     static void display(int n,int m){
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++)
